@@ -9,7 +9,7 @@ class ReturnList:
       self.array = array
     
     def first_last(self):  # Method that returns the first and last element of the original array
-      b_array = [self.array[0] , self.array[-1]]
+      b_array = [self.array[0], self.array[-1]]
       return(b_array)
 
 
