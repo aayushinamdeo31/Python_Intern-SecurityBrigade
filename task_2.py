@@ -12,9 +12,9 @@
 # shown back to me.
 
 # Function to reverse the order of the string array
-def reverse_sentence(str):
-    str.reverse()  # Reversing the sentence list
-    return str
+def reverse_sentence(word):
+    word.reverse()  # Reversing the sentence list
+    return word
 
 
 # Driver Program

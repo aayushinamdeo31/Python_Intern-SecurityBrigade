@@ -5,16 +5,16 @@
 # For practice, write this code inside a function.
 
 class ReturnNew:
-    def __init__(self, arr):  # Constructor that takes an array as an argument
-        self.arr = arr
+    def __init__(self, user_input):  # Constructor that takes an array as an argument
+        self.user_input1 = user_input
 
     def first_last(self):  # Method that returns the first and last element of the original array
-        b_arr = [self.arr[0], self.arr[-1]]
-        return b_arr
+        b_input = [self.user_input1[0], self.user_input1[-1]]
+        return b_input
 
 
 # Driver Program
-arr = list(map(int, input("Enter an array - ").split()))  # arr = [5, 10, 15, 20, 25] dummy list
-obj1 = ReturnNew(arr)  # Creating an object of ReturnNew class
-answer = obj1.first_last()  # Storing the returned array in a variable
+user_input1 = list(map(int, input("Enter an array - ").split()))  # arr = [5, 10, 15, 20, 25] dummy list
+return_new = ReturnNew(user_input1)  # Creating an object of ReturnNew class
+answer = return_new.first_last()  # Storing the returned array in a variable
 print(answer)

@@ -66,5 +66,5 @@ if __name__ == "__main__":
     # Path = 'C:\Users\Aayushii\Desktop\Python Data Backup Task'
     path = input("Enter Path - ")
     print('--' * 20)
-    obj1 = DataBackup(num_days, week_day, path)
-    obj1.cleanup()
+    data = DataBackup(num_days, week_day, path)
+    data.cleanup()
